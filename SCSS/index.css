@@ -1,0 +1,62 @@
+body {
+  padding: 30px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.main-sec h2 {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.main-sec span {
+  color: #4c4e61;
+  font-weight: 500;
+}
+
+.main-sec p {
+  color: #a3a5ae;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.main-sec h3 {
+  color: #4c4e61;
+  font-size: 25px;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+  width: 75%;
+  padding: 20px;
+  margin: auto;
+  border-top: 4px solid cyan;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.team-builder {
+  border-top: 4px solid red;
+}
+
+.karma {
+  border-top: 5px solid orange;
+}
+
+.calculator {
+  border-top: 5px solid blue;
+}
+
+@media (max-width: 740px) {
+  .calculator {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
